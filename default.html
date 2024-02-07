@@ -57,6 +57,11 @@
       background-size: cover;
       background-position: center;
     }
+    #slideSection{
+      background: url('./public/assets/img/bg/bg-dark-40.png');
+      background-size: cover;
+      background-position: center;
+    }
     .circular-glow {
       width: 100px; /* Set your desired width */
       height: 100px; /* Set your desired height */
@@ -81,16 +86,21 @@
       border: 1px solid var(--phoenix-info);
       box-shadow: 0 0 10px 5px rgba(52, 152, 219, 0.7);
     }
+    .boxglow-primary{
+      box-shadow: 0 0 10px 2px var(--phoenix-info);
+      border: 2px solid rgba(52, 152, 219, 0.7);
+    }
+
   </style>
 
   <body>
     <main>
       <section class="bg-white pb-8 pt-2" id="home">
-        <nav class="navbar navbar-expand-lg container-small bg-white rounded-5 px-3 px-lg-7 px-xxl-3">
+        <nav class="navbar navbar-expand-lg container-small bg-white rounded-3 px-3 px-lg-7 px-xxl-3 boxglow-primary">
           <a class="navbar-brand flex-1 flex-lg-grow-0" href="./public/index.html">
           <div class="d-flex align-items-center">
             <img src="./public/assets/img/icons/CA_logo.png" alt="Cebuanas Encoding Services" width="27" />
-            <p class="logo-text text-css3 fw-black">C E S</p>
+            <p class="logo-text text-primary fw-black">CES</p>
           </div>
           </a>
             <!-- <div class="d-lg-none">
@@ -124,16 +134,16 @@
               </div> 
             </div>
             <div class="col-12 col-lg-6 text-lg-start text-center pb-9 order-0 position-relative">
-              <h1 class="fs-5 fs-lg-6 fs-md-7 fs-lg-6 fs-xl-7 fs fw-black mb-4 text-white"><span class="multiple-text"></span>your<br />Business with us.</h1>
-              <p class="mb-2 text-white ">We help your business grow. We make it happen for you! Please click below to see some of the services we provide.</p><a class="btn btn-lg btn-primary rounded-pill me-3" href="#servicesSection">Our Services</a>
+              <h1 class="fs-5 fs-lg-6 fs-md-7 fs-lg-6 fs-xl-7 fs fw-black mb-2 text-white">Take your<br />Business to the <span class="text-primary">Future</span>.</h1>
+              <p class="mb-4 text-white ">We help your business grow. We make it happen for you! Please click below to see some of the services we provide.</p><a class="btn btn-lg btn-primary rounded-pill me-3" href="#servicesSection">Our Services</a>
             </div>
           </div>
           <div class="row mt-1 align-items-center justify-content-between text-center text-lg-start p-3 bg-glassmorphism">
             <div class="col-lg-5 order-0 order-lg-1">
               <div class="d-md-flex justify-content-md-between">
-                <div class="mb-6 mb-md-0 me-4">
+                <div class="">
                   <h4 class="fs-md-3 fs-xl-4 text-white fw-bolder" data-countup='{"endValue":10,"duration":10,"suffix":"k+"}'>0 <span>+</span></h4>
-                  <p class="text-white fs--1">Every month, we enter in or file thousands of cases.</p>
+                  <p class="text-white fs--1 pb-0">Every month, we enter in or file thousands of cases.</p>
                 </div>
                 <div class="mb-6 mb-md-0 me-4">
                   <h4 class="fs-md-3 fs-xl-4  text-white fw-bolder" data-countup='{"endValue":100,"duration":10,"suffix":"+"}'>0</h4>
@@ -143,41 +153,13 @@
               
             </div>
             <div class="col-lg-6">
-              <h6 class="text-white mb-2">Our Team</h6>
+              <h6 class="text-white mb-2">Our Team in the</h6>
               <h5 class="fs-md-3 fs-xl-4 fw-black text-gradient-info text-uppercase mb-4 mb-md-0">PHILIPPINES</h5>
-              <p class="text-white fs--1 mb-0">We have 60+ Staff and G here In Cebu, Philippines To Make It Happen For You!</p>
+              <p class="text-white fs--1 mb-0">60+ Staff and affiliates in Cebu and all across the country. To Make It Happen For You!</p>
             </div>
           </div>
         </div>
       </section>
-      <section class="py-2" id="slideSection">
-        <div class="slider">
-          <div class="text-center pt-4">
-            <h2 class="mb-2 text-900 lh-base">Some of the tools we use to make it happen for you:</h2>
-          </div>
-          <div class="slide-track">
-            <img src="./public/assets/img/company/Melissa.png" alt="" />
-            <img src="./public/assets/img/company/ServeManager.png" alt="" />
-            <img src="./public/assets/img/company/ProcessMaster.png" alt="" />
-            <img src="./public/assets/img/company/LDMAXServicing.png" alt="" />
-            <img src="./public/assets/img/company/LPS.png" alt="" />
-            <img src="./public/assets/img/company/Smarty.png" alt="" />
-            <img src="./public/assets/img/company/Tristar.png" alt="" />
-            <img src="./public/assets/img/company/PSTool.png" alt="" />
-          </div>
-          <div class="slide-track">
-            <img src="./public/assets/img/company/Melissa.png" alt="" />
-            <img src="./public/assets/img/company/ServeManager.png" alt="" />
-            <img src="./public/assets/img/company/ProcessMaster.png" alt="" />
-            <img src="./public/assets/img/company/LDMAXServicing.png" alt="" />
-            <img src="./public/assets/img/company/LPS.png" alt="" />
-            <img src="./public/assets/img/company/Smarty.png" alt="" />
-            <img src="./public/assets/img/company/Tristar.png" alt="" />
-            <img src="./public/assets/img/company/PSTool.png" alt="" />
-            </div>
-          </div>
-      </section>
-
       <div class="w-50 horizontalBorder" style="margin-left: 25%;"></div>
 
       <section class="pt-15 pb-0" id="servicesSection">
@@ -280,17 +262,17 @@
               <p class="mb-5">Stay connected with us; Cebuanas Encoding Services is available for your necessities at all times.</p>
               <div class="d-flex flex-column align-items-center align-items-md-start gap-3 gap-md-0">
                 <div class="d-md-flex align-items-center">
-                  <div class="icon-wrapper shadow-info"><span class="uil uil-phone text-primary light fs-4 z-index-1 ms-2"></span></div>
-                  <div class="flex-1 ms-3"><a class="link-900" href="tel:+871406-7509">(63+) 995.591.8676</a></div>
+                  <div class="icon-wrapper shadow-info"><span class="uil uil-phone text-primary fs-4 z-index-1 ms-2"></span></div>
+                  <div class="flex-1 ms-3"><a class="link-900" href="tel:+871406-7509">832.392.5501</a></div>
                 </div>
-                <div class="d-md-flex align-items-center">
-                  <div class="icon-wrapper shadow-info"><span class="uil uil-envelope text-primary light fs-4 z-index-1 ms-2"></span></div>
-                  <div class="flex-1 ms-3"><a class="fw-semi-bold text-900" href="mailto:cebuanasencodingservices@yahoo.com">cebuanasencodingservices@yahoo.com</a></div>
+                <div class="d-md-flex align-items-center mb-3">
+                  <div class="icon-wrapper shadow-info"><span class="uil uil-envelope text-primary fs-4 z-index-1 ms-2"></span></div>
+                  <div class="flex-1 ms-3"><a class="fw-semi-bold text-900" href="mailto:cebuanasencodingservices@yahoo.com">rovilynpelayo@gmail.com</a></div>
                 </div>
-                <div class="mb-6 d-md-flex align-items-center">
-                  <div class="icon-wrapper shadow-info"><span class="uil uil-map-marker text-primary light fs-4 z-index-1 ms-2"></span></div>
+                <!-- <div class="mb-6 d-md-flex align-items-center">
+                  <div class="icon-wrapper shadow-info"><span class="uil uil-map-marker text-primary fs-4 z-index-1 ms-2"></span></div>
                   <div class="flex-1 ms-3"><a class="fw-semi-bold text-900" href="#!">PUROK MAHOGANY POBLACION WARD II, MINGLANILLA, CEBU 6046, PHILIPPINES</a></div>
-                </div>
+                </div> -->
                 <div class="d-flex"><a href="#!"><span class="fa-brands fa-facebook fs-2 text-primary me-3"></span></a><a href="#!"><span class="fa-brands fa-twitter fs-2 text-primary me-3"></span></a><a href="#!"><span class="fa-brands fa-linkedin-in fs-2 text-primary"></span></a></div>
               </div>
             </div>
@@ -316,7 +298,33 @@
           </div>
         </div>
       </section>
-
+      <section class="py-3 pb-1" style="background-color: #0b3c70;" id="slideSection">
+        <div class="slider">
+          <div class="text-center">
+            <h4 class="mb-1 text-white lh-base">Some of the tools we use to make it happen for you:</h4>
+          </div>
+          <div class="slide-track">
+            <img src="./public/assets/img/company/Melissa.png" alt="Melissa Logo" />
+            <img src="./public/assets/img/company/ServeManager.png" alt="Serve Manager Logo" />
+            <img src="./public/assets/img/company/ProcessMaster.png" alt="Process Master Logo" />
+            <img src="./public/assets/img/company/LDMAXServicing.png" alt="LDMAX Services Logo" />
+            <img src="./public/assets/img/company/LPS.png" alt="LPS Logo" />
+            <img src="./public/assets/img/company/Smarty.png" alt="Smarty Logo" />
+            <img src="./public/assets/img/company/Tristar.png" alt="TriStar Logo" />
+            <img src="./public/assets/img/company/PSTool.png" alt="PSTool Logo" />
+          </div>
+          <div class="slide-track">
+            <img src="./public/assets/img/company/Melissa.png" alt="Melissa Logo" />
+            <img src="./public/assets/img/company/ServeManager.png" alt="Serve Manager Logo" />
+            <img src="./public/assets/img/company/ProcessMaster.png" alt="Process Master Logo" />
+            <img src="./public/assets/img/company/LDMAXServicing.png" alt="LDMAX Services Logo" />
+            <img src="./public/assets/img/company/LPS.png" alt="LPS Logo" />
+            <img src="./public/assets/img/company/Smarty.png" alt="Smarty Logo" />
+            <img src="./public/assets/img/company/Tristar.png" alt="TriStar Logo" />
+            <img src="./public/assets/img/company/PSTool.png" alt="PSTool Logo" />
+            </div>
+          </div>
+      </section>
       <div class="position-relative">
         <div class="bg-holder footer-bg" style="background-image:url(./public/assets/img/bg/bg-19.png);background-size:auto;">
         </div>
@@ -324,45 +332,44 @@
         </div>
         <div class="bg-holder" style="background-image:url(./public/assets/img/bg/bg-left-20.png);background-position:left;background-size:auto;">
         </div>
-        <div class="position-relative">
-          <svg class="w-100 text-white" preserveAspectRatio="none" viewBox="0 0 1920 368" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M1920 0.44L0 367.74V0H1920V0.44Z" fill="currentColor"></path>
-          </svg>
 
           <section class="footer-default">
 
             <div class="container-small px-lg-7 px-xxl-3">
               <div class="row position-relative">
-                <div class="col-12 col-sm-12 col-lg-5 mb-4 order-0 order-sm-0"><a href="#"><img class="mb-2" src="./public/assets/img/icons/CA_logo.png" height="50" alt="" /></a>
-                  <h3 class="text-white light">Cebuanas Encoding Services</h3>
-                  <p class="text-white opacity-50 light">Helping Businesses Grow,<br />Around the world.</p>
+                <div class="col-12 col-sm-12 col-lg-5 mb-4 order-0 order-sm-0"><a href="#">
+                  <div class="d-flex align-items-center">
+                    <img class="mb-2" src="./public/assets/img/icons/CA_logo.png" height="50" alt="" /></a>
+                    <h5 class="text-white">Cebuanas Encoding Services</h5>
+                  </div>
+                  <p class="text-white fs--1">Future Proofing Businesses, Around the world.</p>
                 </div>
                 <div class="col-lg-7">
                   <div class="row justify-content-between">
                     <div class="col-6 col-sm-4 col-lg-3 mb-3 order-2 order-sm-1">
                       <div class="border-dashed border-start border-primary-300 ps-3" style="--phoenix-border-opacity: .2;">
-                        <h5 class="fw-bolder mb-2 text-light light">Help</h5>
+                        <h5 class="fw-bolder mb-2 text-light">Help</h5>
                         <ul class="list-unstyled mb-3">
-                          <li class="mb-1"><a class="text-500 hover-text-100 light" href="#team">About</a></li>
-                          <li class="mb-1"><a class="text-500 hover-text-100 light" href="#contact">Contact</a></li>
+                          <li class="mb-1"><a class="text-500 hover-text-100" href="#team">About</a></li>
+                          <li class="mb-1"><a class="text-500 hover-text-100" href="#contact">Contact</a></li>
                         </ul>
                       </div>
 
                     </div>
                     <div class="col-6 col-sm-4 col-lg-3 mb-3 order-3 order-sm-2">
                       <div class="border-dashed border-start border-primary-300 ps-3" style="--phoenix-border-opacity: .2;">
-                        <h5 class="lh-lg fw-bold text-light mb-2 light">Follow</h5>
+                        <h5 class="lh-lg fw-bold text-light mb-2">Follow</h5>
                         <ul class="list-unstyled mb-md-2">
-                          <li class="mb-1"><a class="text-500 hover-text-100 light" href="#!">Facebook</a></li>
-                          <li class="mb-1"><a class="text-500 hover-text-100 light" href="#!">LinkedIn</a></li>
+                          <li class="mb-1"><a class="text-500 hover-text-100" href="#!">Facebook</a></li>
+                          <li class="mb-1"><a class="text-500 hover-text-100" href="#!">LinkedIn</a></li>
                         </ul>
                       </div>
                     </div>
                     <div class="col-6 col-sm-4 col-lg-3 mb-3 order-3 order-sm-2">
                       <div class="border-dashed border-start ps-3" style="--phoenix-border-opacity: .2;">
-                        <h5 class="lh-lg fw-bold text-light mb-2 light">INFO</h5>
+                        <h5 class="lh-lg fw-bold text-light mb-2">INFO</h5>
                         <ul class="list-unstyled mb-md-2">
-                          <button class="btn text-500 hover-text-100 light fw-300" type="button" data-bs-toggle="modal" data-bs-target="#longDTI">DTI</button>
+                          <button class="btn text-500 hover-text-100 fw-300" type="button" data-bs-toggle="modal" data-bs-target="#longDTI">DTI</button>
                             <div class="modal fade" id="longDTI" tabindex="-1" aria-labelledby="scrollingLongModalLabel" aria-hidden="true" style="display: none;">
                               <div class="modal-dialog">
                                 <div class="modal-content">
@@ -376,7 +383,7 @@
                               </div>
                             </div> 
                             <br />
-                            <button class="btn text-500 hover-text-100 light fw-300" type="button" data-bs-toggle="modal" data-bs-target="#longDTI">BMBE</button>
+                            <button class="btn text-500 hover-text-100 fw-300" type="button" data-bs-toggle="modal" data-bs-target="#longDTI">BMBE</button>
                             <div class="modal fade" id="longDTI" tabindex="-1" aria-labelledby="scrollingLongModalLabel" aria-hidden="true" style="display: none;">
                               <div class="modal-dialog">
                                 <div class="modal-content">
@@ -390,7 +397,7 @@
                               </div>
                             </div>
                             <br />
-                            <button class="btn text-500 hover-text-100 light fw-300" type="button" data-bs-toggle="modal" data-bs-target="#longBMBE">Barangay<span><br />Clearance</span></button>
+                            <button class="btn text-500 hover-text-100 fw-300" type="button" data-bs-toggle="modal" data-bs-target="#longBMBE">Barangay<span><br />Clearance</span></button>
                             <div class="modal fade" id="longBMBE" tabindex="-1" aria-labelledby="scrollingLongModalLabel" aria-hidden="true" style="display: none;">
                               <div class="modal-dialog">
                                 <div class="modal-content">
@@ -412,50 +419,6 @@
               </div>
             </div>
           </section>
-
-        </div>
-      </div>
-      <div class="support-chat-container">
-        <div class="container-fluid support-chat">
-          <div class="card bg-white">
-            <div class="card-header d-flex flex-between-center px-4 py-3 border-bottom">
-              <h5 class="mb-0 d-flex align-items-center gap-2">Demo widget<span class="fa-solid fa-circle text-success fs--3"></span></h5>
-              <div class="btn-reveal-trigger">
-                <button class="btn btn-link p-0 dropdown-toggle dropdown-caret-none transition-none d-flex" type="button" id="support-chat-dropdown" data-bs-toggle="dropdown" data-boundary="window" aria-haspopup="true" aria-expanded="false" data-bs-reference="parent"><span class="fas fa-ellipsis-h text-900"></span></button>
-                <div class="dropdown-menu dropdown-menu-end py-2" aria-labelledby="support-chat-dropdown"><a class="dropdown-item" href="#!">Request a callback</a><a class="dropdown-item" href="#!">Search in chat</a><a class="dropdown-item" href="#!">Show history</a><a class="dropdown-item" href="#!">Report to Admin</a><a class="dropdown-item btn-support-chat" href="#!">Close Support</a></div>
-              </div>
-            </div>
-            <div class="card-body chat p-0">
-              <div class="d-flex flex-column-reverse scrollbar h-100 p-3">
-                <div class="text-end mt-6"><a class="mb-2 d-inline-flex align-items-center text-decoration-none text-1100 hover-bg-soft rounded-pill border border-primary py-2 ps-4 pe-3" href="#!">
-                    <p class="mb-0 fw-semi-bold fs--1">I need help with something</p><span class="fa-solid fa-paper-plane text-primary fs--1 ms-3"></span>
-                  </a><a class="mb-2 d-inline-flex align-items-center text-decoration-none text-1100 hover-bg-soft rounded-pill border border-primary py-2 ps-4 pe-3" href="#!">
-                    <p class="mb-0 fw-semi-bold fs--1">I can’t reorder a product I previously ordered</p><span class="fa-solid fa-paper-plane text-primary fs--1 ms-3"></span>
-                  </a><a class="mb-2 d-inline-flex align-items-center text-decoration-none text-1100 hover-bg-soft rounded-pill border border-primary py-2 ps-4 pe-3" href="#!">
-                    <p class="mb-0 fw-semi-bold fs--1">How do I place an order?</p><span class="fa-solid fa-paper-plane text-primary fs--1 ms-3"></span>
-                  </a><a class="false d-inline-flex align-items-center text-decoration-none text-1100 hover-bg-soft rounded-pill border border-primary py-2 ps-4 pe-3" href="#!">
-                    <p class="mb-0 fw-semi-bold fs--1">My payment method not working</p><span class="fa-solid fa-paper-plane text-primary fs--1 ms-3"></span>
-                  </a>
-                </div>
-                <div class="text-center mt-auto">
-                  <div class="avatar avatar-3xl status-online"><img class="rounded-circle border border-3 border-white" src="./public/assets/img/team/30.webp" alt="" /></div>
-                  <h5 class="mt-2 mb-3">Eric</h5>
-                  <p class="text-center text-black mb-0">Ask us anything – we’ll get back to you here or by email within 24 hours.</p>
-                </div>
-              </div>
-            </div>
-            <div class="card-footer d-flex align-items-center gap-2 border-top ps-3 pe-4 py-3">
-              <div class="d-flex align-items-center flex-1 gap-3 border rounded-pill px-4">
-                <input class="form-control outline-none border-0 flex-1 fs--1 px-0" type="text" placeholder="Write message" />
-                <label class="btn btn-link d-flex p-0 text-500 fs--1 border-0" for="supportChatPhotos"><span class="fa-solid fa-image"></span></label>
-                <input class="d-none" type="file" accept="image/*" id="supportChatPhotos" />
-                <label class="btn btn-link d-flex p-0 text-500 fs--1 border-0" for="supportChatAttachment"> <span class="fa-solid fa-paperclip"></span></label>
-                <input class="d-none" type="file" id="supportChatAttachment" />
-              </div>
-              <button class="btn p-0 border-0 send-btn"><span class="fa-solid fa-paper-plane fs--1"></span></button>
-            </div>
-          </div>
-        </div>
       </div>
     </main>
     
